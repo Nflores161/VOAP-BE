@@ -1,0 +1,45 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  punk: MyString
+  d_beat: MyString
+  egg_punk: MyString
+  chain_punk: MyString
+  heavy_metal: MyString
+  war_metal: MyString
+  death_metal: MyString
+  metal: MyString
+  electronic: MyString
+  indie: MyString
+  pop: MyString
+  synth_pop: MyString
+  goth: MyString
+  industrial: MyString
+  post_punk: MyString
+  shoegaze: MyString
+  pop_punk: MyString
+  hip_hop: MyString
+  techno: MyString
+  ebm: MyString
+
+two:
+  punk: MyString
+  d_beat: MyString
+  egg_punk: MyString
+  chain_punk: MyString
+  heavy_metal: MyString
+  war_metal: MyString
+  death_metal: MyString
+  metal: MyString
+  electronic: MyString
+  indie: MyString
+  pop: MyString
+  synth_pop: MyString
+  goth: MyString
+  industrial: MyString
+  post_punk: MyString
+  shoegaze: MyString
+  pop_punk: MyString
+  hip_hop: MyString
+  techno: MyString
+  ebm: MyString

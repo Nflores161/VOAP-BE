@@ -1,0 +1,41 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contemporary: MyString
+  modern: MyString
+  abstract: MyString
+  cubism: MyString
+  post_modern: MyString
+  punk_style: MyString
+  extreme: MyString
+  sketchy: MyString
+  geometric: MyString
+  photography: MyString
+  pop_art: MyString
+  realism: MyString
+  surrealism: MyString
+  impressionism: MyString
+  collage: MyString
+  freestyle: MyString
+  symbolism: MyString
+  expressionism: MyString
+
+two:
+  contemporary: MyString
+  modern: MyString
+  abstract: MyString
+  cubism: MyString
+  post_modern: MyString
+  punk_style: MyString
+  extreme: MyString
+  sketchy: MyString
+  geometric: MyString
+  photography: MyString
+  pop_art: MyString
+  realism: MyString
+  surrealism: MyString
+  impressionism: MyString
+  collage: MyString
+  freestyle: MyString
+  symbolism: MyString
+  expressionism: MyString
