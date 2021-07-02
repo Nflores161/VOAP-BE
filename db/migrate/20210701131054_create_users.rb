@@ -5,11 +5,11 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.integer :age
       t.string :location
       t.string :bio
-      t.string :forum_posts
+      t.string :forum_post
       t.boolean :creator
       t.string :profile_pic_url
       t.string :email
-      t.string :password
+      t.string :password_digest
 
       t.timestamps
     end

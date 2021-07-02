@@ -5,19 +5,19 @@ one:
   age: 1
   location: MyString
   bio: MyString
-  forum_posts: MyString
+  forum_post: MyString
   creator: false
   profile_pic_url: MyString
   email: MyString
-  password: MyString
+  password_digest: MyString
 
 two:
   name: MyString
   age: 1
   location: MyString
   bio: MyString
-  forum_posts: MyString
+  forum_post: MyString
   creator: false
   profile_pic_url: MyString
   email: MyString
-  password: MyString
+  password_digest: MyString
