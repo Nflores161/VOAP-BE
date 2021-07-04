@@ -1,5 +1,6 @@
 class Api::V1::UsersController < ApplicationController
 
+
   def index
     users = User.all
     render json: users
@@ -69,7 +70,7 @@ class Api::V1::UsersController < ApplicationController
     end  
 
     def user_params
-      params.permit(:id)
+      params.permit(:id, :name :age, :location, :bio, :creator, :profile_pic_url, :email, :password)
     end 
 
 end

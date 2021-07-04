@@ -1,2 +1,2 @@
-class ArtTypesController < ApplicationController
+class Api::V1::ArtTypesController < ApplicationController
 end
