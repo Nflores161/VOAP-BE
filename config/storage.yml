@@ -1,3 +1,9 @@
+cloudinary:
+service: Cloudinary
+cloud_name: victimsofanartpage
+api_key: 284434296464184
+api_secret: cSXkU39TOACVLYzrP2_exVfJcvA
+
 test:
   service: Disk
   root: <%= Rails.root.join("tmp/storage") %>

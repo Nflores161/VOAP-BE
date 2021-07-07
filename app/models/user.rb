@@ -4,6 +4,8 @@ class User < ApplicationRecord
   validates :name, presence: true
   validates :age, numericality: { greater_than_or_equal_to: 18}
 
+  # has_one_attached :image
+
   has_many :art_images
   has_many :genres
   has_many :art_styles

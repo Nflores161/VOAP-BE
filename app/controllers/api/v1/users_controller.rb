@@ -25,7 +25,7 @@ class Api::V1::UsersController < ApplicationController
     else
       render json: { error: "Enter valid email/password again" }
     end
-  endSignUp.
+  end  
 
   def login
     user = User.find_by(email: params[:email])
@@ -70,7 +70,10 @@ class Api::V1::UsersController < ApplicationController
     end  
 
     def user_params
-      params.permit(:id, :name :age, :location, :bio, :creator, :profile_pic_url, :email, :password)
+      params.permit(:id, :name, :age, :location, :bio, :creator, :profile_pic_url, :email, :password)
     end 
 
+    def render_response_not_found
+      render json: { error: "user not found" }, status: :not_found
+    end
 end

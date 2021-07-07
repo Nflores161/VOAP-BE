@@ -40,3 +40,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "active_model_serializers", "~> 0.10.12"
+
+gem 'jwt'
+
+# gem 'cloudinary', '~> 1.20'
+
+# gem 'cloudinary', '~> 1.20', require: true
+
+gem 'cloudinary', require: false
+gem 'activestorage-cloudinary-service'
