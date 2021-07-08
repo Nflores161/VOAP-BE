@@ -49,3 +49,5 @@ gem 'jwt'
 
 gem 'cloudinary', require: false
 gem 'activestorage-cloudinary-service'
+
+gem 'faker'

@@ -30,8 +30,8 @@ class Api::V1::UsersController < ApplicationController
   def login
     user = User.find_by(email: params[:email])
     # byebug
-    if user && user.authenticate(params[:password])
-      #   render json: { email: user.email, token: encode_token({ user_id: user.id }) }  #or email?
+      if user && user.authenticate(params[:password])
+     
       render json: { user: UserSerializer.new(user), token: encode_token({ user_id: user.id }) }
     else
       render json: { error: "Email or Password is not correct" }
@@ -57,6 +57,24 @@ class Api::V1::UsersController < ApplicationController
       render json: { error: "User not found" }, status: :not_found
     end
   end
+
+  def get_random
+    user = User.order("RANDOM()").limit(1)
+    if user
+      render json: user, status: 200
+    else
+      render json: render_response_not_found
+    end
+  end  
+
+  def get_random_group
+    users = User.order("RANDOM()").limit(8)
+    if users
+      render json: users, status: 200
+    else
+      render json: render_response_not_found
+    end
+  end  
 
   
   private
