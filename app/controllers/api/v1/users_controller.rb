@@ -88,7 +88,7 @@ class Api::V1::UsersController < ApplicationController
     end  
 
     def user_params
-      params.permit(:id, :name, :age, :location, :bio, :creator, :profile_pic_url, :email, :password)
+      params.permit(:id, :name, :age, :location, :bio, :creator, :profile_pic_url, :email, :genre,:password)
     end 
 
     def render_response_not_found

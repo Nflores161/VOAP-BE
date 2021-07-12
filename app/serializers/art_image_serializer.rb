@@ -1,5 +1,5 @@
 class ArtImageSerializer < ActiveModel::Serializer
-  attributes :id, :title, :user_id
+  attributes :id, :title, :user_id, :image
   # :genre, :art_type, :description
 
 # def initialize(art_image: nil, user:)
