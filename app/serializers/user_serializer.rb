@@ -3,7 +3,7 @@ class UserSerializer < ActiveModel::Serializer
 
   has_many :art_images
   # has_many :files_attachments, through: :art_images
-  
+  has_many :favorites
   # , :source =>:images_attachments
 
   

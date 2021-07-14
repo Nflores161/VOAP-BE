@@ -16,7 +16,10 @@ Rails.application.routes.draw do
       post "/myprofile", to: "art_images#create"
       get "/myprofile", to: "art_images#show"
       get "/user_art", to: "art_images#index"
-      # get "/art_images", to: "art_images#index"
+
+      post "/favorite_user", to: "favorites#create"
+      get "/myprofile", to: "favorites#index"
+      get "/getfavorites", to: "favorites#show"
     end 
   end  
   

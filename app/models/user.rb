@@ -7,9 +7,5 @@ class User < ApplicationRecord
   # has_one_attached :image
 
   has_many :art_images
-  # has_many :files_attachments, through: :art_images, :source =>:images_attachments
-  # has_many :images_attachments, through: :art_images, :source => :images_attachments
-
-  # has_many :genres
-  # has_many :art_styles
+  has_many :favorites
 end
