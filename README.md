@@ -1,25 +1,25 @@
-# README
+# VOAP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- VOAP is an online web application tool for artists and musicians to connect.
+- Create a user profile and upload images using Active Storage.
+- View Users profiles and see their art work on different mediums including - LP, CD, and Gig Flyer.
+- Directly contact or save users to favorites to refer back to their profiles.
 
-Things you may want to cover:
+-This app is currently under its last phases of development before deployment.
+    - In order to run application, please clone this repo down https://github.com/Nflores161/VOAP-FE and proceed with the following instructions.
 
-* Ruby version
+-To run the application, the backend must run on [http://localhost:3000].
+after cloning this repo down, run 'rails s' in the terminal to start the rails server.
 
-* System dependencies
+-After the rails server is running, proceed to the following instructions below.
 
-* Configuration
+# VOAP frontend
 
-* Database creation
+-Clone down the front end repo and in the terminal run the below code after running the rails server.
+### `npm start`
 
-* Database initialization
+Runs the app in the development mode.\
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# VOAP-BE
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
