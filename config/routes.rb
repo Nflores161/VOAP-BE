@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       # resources :users
       resources :art_images
+      resources :favorites
       post "/signup", to: "users#create"
       post "/login", to: "users#login"
       get "/users", to: "users#index"
@@ -12,6 +13,7 @@ Rails.application.routes.draw do
       get "/get_random_group", to: "users#get_random_group"
       # get "/explore", to: "users#index"
       # get "/explore", to: "users#show"
+      delete "/favorites/:id", to: "favorites#destroy"
 
       post "/myprofile", to: "art_images#create"
       get "/myprofile", to: "art_images#show"

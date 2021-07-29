@@ -17,7 +17,9 @@ gem 'puma', '~> 5.0'
 gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.2'
+gem 'aws-sdk-s3', require: false
+gem 'active_storage_validations'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
@@ -47,7 +49,7 @@ gem 'jwt'
 
 # gem 'cloudinary', '~> 1.20', require: true
 
-gem 'cloudinary', require: false
-gem 'activestorage-cloudinary-service'
+# gem 'cloudinary', require: false
+# gem 'activestorage-cloudinary-service'
 
 gem 'faker'
